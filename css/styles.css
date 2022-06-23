@@ -166,6 +166,9 @@ body{
         justify-content: space-evenly;
         gap: 30px;
     }
+.grey-bgc{
+    background-color: var(--grey-bgc);
+}
 
 .description{
     margin-top: 4px;
