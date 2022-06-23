@@ -330,9 +330,9 @@ ul{
 
 .nav-buttons{
     display: flex;
+    align-items: center;
     justify-content: center;
     gap: 8px;
-    padding-top: ;
 }
 
 .main-content{
@@ -352,11 +352,13 @@ ul{
 }
 
 .first-buttons{
+    align-items: center;
     gap: 8px;
     margin-top: 0;
     margin-bottom: 50px;
     border-radius: 4px;
-    font-family: 'Roboto';
+    border-style: hidden;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -366,6 +368,8 @@ ul{
     color: var(--title-text-color);
     background-color: var(--portfolio-buttons-bgc);
 }
+
+
 
 .first-buttons:hover{
     color: var(--secont-title-text-color);
