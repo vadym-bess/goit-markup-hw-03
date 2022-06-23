@@ -76,6 +76,10 @@ body{
     padding: 94px;
 }
 
+.header-section{
+    padding: 32px;
+}
+
 .conteiner{
     width: 100%;
     max-width: 1200px;
@@ -85,11 +89,16 @@ body{
 
 .hero-section {
     text-align: center;
-    min-width: 1600px;
+    width: 100%;
     min-height: 600px;
     padding: 0 auto;
     margin: 0 auto;
     background-color: var(--secondary-section-background)
+}
+
+.img-hero-section{
+    padding-top: 0;
+    padding-bottom: 94px;
 }
 
 .hero-title {
@@ -111,7 +120,7 @@ body{
 
 .hero-button{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     justify-items: center;
     align-items: center;
     margin-left: 500px;
