@@ -20,6 +20,7 @@ html{
     --grey-bgc: #F5F4FA;
     --light-grey-bgc: #E5E5E5;
     --head-border-color: #ECECEC;
+    --portfolio-border-color: #EEEEEE;
 }
 
 a,
@@ -179,8 +180,12 @@ body{
 }
 
 .description{
-    margin-top: 4px;
-    margin-bottom: 20px;
+    border-bottom: 2px solid var(--portfolio-border-color);
+    border-left: 2px solid var(--portfolio-border-color);
+    border-right: 2px solid var(--portfolio-border-color);
+    margin: 0;
+    padding-left: 24px;
+    padding-bottom: 20px;
     color: var(--text-color);
     font-family: 'Roboto',sans-serif;
     font-style: normal;
@@ -219,9 +224,19 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
 }
+
+.card{
+    display: flex;
+    flex-direction:column;
+}
+
 .third-title{
-    margin-top: 20px;
-    margin-bottom: 0;
+    border-left: 2px solid var(--portfolio-border-color);
+    border-right: 2px solid var(--portfolio-border-color);
+    margin:0;
+    padding-bottom: 0;
+    padding-top: 20px;
+    padding-left: 24px;
     color: var(--title-text-color);
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -332,7 +347,8 @@ ul{
 }
 
 .img{
-    margin-bottom: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 .first-buttons{
