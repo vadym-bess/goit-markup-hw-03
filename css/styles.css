@@ -19,7 +19,9 @@ html{
     --portfolio-buttons-bgc: #F5F4FA;
     --grey-bgc: #F5F4FA;
     --light-grey-bgc: #E5E5E5;
+    --head-border-color: #ECECEC;
 }
+
 a,
 h1,
 h2,
@@ -78,6 +80,12 @@ body{
 
 .header-section{
     padding: 32px;
+    border-bottom: 2px solid var(--head-border-color);
+}
+
+.portfolio-header-section{
+    padding: 32px; 
+    border-bottom: 2px solid var(--head-border-color);
 }
 
 .conteiner{
@@ -319,7 +327,7 @@ ul{
 }
 
 .cards-section{
-    margin-top: 0;
+    margin-top: 94px;
     margin-bottom: 94px;
 }
 
