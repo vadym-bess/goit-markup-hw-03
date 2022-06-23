@@ -395,7 +395,6 @@ ul{
 }
 
 .footer{
-    min-width: 1600px;
     min-height: 252px;
     background-color: var(--secondary-section-background);
 }
