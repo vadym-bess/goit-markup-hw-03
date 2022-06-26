@@ -87,7 +87,7 @@ body{
 
 .portfolio-header-section{
     padding: 32px; 
-    border-bottom: 2px solid var(--head-border-color);
+    border-bottom: 1px solid var(--head-border-color);
 }
 
 .conteiner{
