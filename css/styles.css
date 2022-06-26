@@ -42,10 +42,7 @@ li {
 
 .nav{
     display: flex;
-
-    
 }
-
 
 .menu-links{
     display: flex;
@@ -234,7 +231,6 @@ img{
     letter-spacing: 0.03em;
 }
 
-
 .hidden-title{
     margin: 0;
     visibility: hidden;
@@ -260,8 +256,6 @@ img{
     border-right: 1px solid var(--portfolio-border-color);
     border-bottom: 1px solid var(--portfolio-border-color);;
 }
-
-
 
 .third-title{
     margin-top: 0;
