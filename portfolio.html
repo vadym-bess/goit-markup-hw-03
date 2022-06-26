@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
     <title>Homework 3</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+        <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
@@ -59,28 +60,28 @@
 
     <main>
 
-        <section class="cards-section">
+        <section class="section">
             <div class="conteiner">
                 
                 <ul class="nav-buttons">
                     <li>
-                        <button class="first-buttons" type="button">Все</button>
+                        <button class="first-buttons" type="button"><span class="buttons-text">Все</span></button>
                     </li>
                 
                     <li>
-                        <button class="first-buttons" type="button">Веб-сайты</button>
+                        <button class="first-buttons" type="button"><span class="buttons-text">Веб-сайты</span></button>
                     </li>
                 
                     <li>
-                        <button class="first-buttons" type="button">Приложения</button>
+                        <button class="first-buttons" type="button"><span class="buttons-text">Приложения</span></button>
                     </li>
                 
                     <li>
-                        <button class="first-buttons" type="button">Дизайн</button>
+                        <button class="first-buttons" type="button"><span class="buttons-text">Дизайн</span></button>
                     </li>
                 
                     <li>
-                        <button class="first-buttons" type="button">Маркетинг</button>
+                        <button class="first-buttons" type="button"><span class="buttons-text">Маркетинг</span></button>
                     </li>
                 </ul>
                 
@@ -88,16 +89,18 @@
                 
                 <ul class="main-content">
                     <li>
-                        <div class="card">
+                        
                         <img class="img" src="./images/laptop.jpeg" alt="Лептоп" width: 370;>
+                        <div class="card">
                         <h2 class="third-title">Технокряк</h2>
                         <p class="description">Веб-сайт</p>
                         </div>
                     </li>
                 
                     <li>
-                        <div class="card">
+                        
                         <img class="img" src="./images/basketball.jpeg" alt="Баскетбол" width: 370;>
+                        <div class="card">
                         <h2 class="third-title">Постер New Orlean vs Golden Star</h2>
                         <p class="description">Дизайн</p>
                         </div>
@@ -105,8 +108,9 @@
                     </li>
                 
                     <li>
-                        <div class="card">
+            
                             <img class="img" src="./images/seafood.jpeg" alt="Морепродукты" width: 370;>
+                            <div class="card">
                             <h2 class="third-title">Ресторан Seafood</h2>
                             <p class="description">Приложение</p>
                         </div>
@@ -114,8 +118,9 @@
                     </li>
                 
                     <li>
-                        <div class="card">
+                        
                             <img class="img" src="./images/headphones.jpeg" alt="Наушники" width: 370;>
+                            <div class="card">
                             <h2 class="third-title">Проект Prime</h2>
                             <p class="description">Маркетинг</p>
                         </div>
@@ -123,8 +128,9 @@
                     </li>
                 
                     <li>
-                        <div class="card">
+                        
                             <img class="img" src="./images/box.jpeg" alt="Ящики" width: 370;>
+                            <div class="card">
                             <h2 class="third-title">Проект Boxes</h2>
                             <p class="description">Приложение</p>
                         </div>
@@ -132,8 +138,9 @@
                     </li>
                 
                     <li>
-                        <div class="card">
+                        
                             <img class="img" src="./images/screen.jpeg" alt="Экран" width: 370;>
+                            <div class="card">
                             <h2 class="third-title">Inspiration has no Borders</h2>
                             <p class="description">Веб-сайт</p>
                         </div>
@@ -141,8 +148,9 @@
                     </li>
                 
                     <li>
-                        <div class="card">
+                        
                         <img class="img" src="./images/book.jpeg" alt="Книга" width: 370;>
+                        <div class="card">
                         <h2 class="third-title">Издание Limited Edition</h2>
                         <p class="description">Дизайн</p>
                     </div>
@@ -150,8 +158,9 @@
                     </li>
                 
                     <li>
-                        <div class="card">
+                        
                             <img class="img" src="./images/label.jpeg" alt="Бренд" width: 370;>
+                            <div class="card">
                             <h2 class="third-title">Проект LAB</h2>
                             <p class="description">Маркетинг</p>
                         </div>
@@ -159,8 +168,9 @@
                     </li>
                 
                     <li>
-                        <div class="card">
+                        
                             <img class="img" src="./images/notebook.jpeg" alt="Ноутбук" width: 370;>
+                            <div class="card">
                             <h2 class="third-title">Growing Business</h2>
                             <p class="description">Приложение</p>
                         </div>
@@ -176,29 +186,30 @@
      </main>
 
 
-    <footer class="footer section">
-       <div class="conteiner">
-           <a class="logo" href="./portfolio.html">Web<span class="footer-studio">Studio</span></a>
-        
-        
-        <address>
-            <ul>
-                <li>
-                    <p class="footer-adress">г. Киев, пр-т Леси Украинки, 26</p>
-                </li>
-        
-                <li>
-                    <a class="footer-mail-tel" href="mailto:info@example.com">info@example.com</a>
-                </li>
-        
-        
-                <li>
-                    <a class="footer-mail-tel" href="tel:+380991111111">+38 099 111 11 11</a>
-                </li>
-            </ul>
-        </address>
-    </div>
-        </footer>
+    <footer class="footer">
+    
+        <div class="conteiner">
+    
+            <a class="footer-logo" href="./index.html">Web<span class="footer-studio">Studio</span></a>
+    
+            <address>
+                <ul>
+                    <li>
+                        <p class="footer-adress">г. Киев, пр-т Леси Украинки, 26</p>
+                    </li>
+    
+                    <li>
+                        <a class="footer-mail" href="mailto:info@example.com">info@example.com</a>
+                    </li>
+    
+    
+                    <li>
+                        <a class="footer-mail-tel" href="tel:+380991111111">+38 099 111 11 11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
+    </footer>
     </body>
     
     </html>
