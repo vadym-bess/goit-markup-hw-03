@@ -115,10 +115,6 @@ body{
     background-color: var(--secondary-section-background)
 }
 
-.img-hero-section{
-    
-}
-
 .hero-title {
     max-width: 696px;
     display: inline-block;
